@@ -1,0 +1,20 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.0
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: sheejantripathi101@gmail.com
+author_name: Sheejan Tripathi
+data_format: string
+file_extension: ''
+has_binder: false
+has_settings: false
+kind: frontend
+labextension_name: mysampleextension
+mimetype: ''
+mimetype_name: ''
+project_short_description: 'A JupyterLab frontend extension to capture the custon
+    sharing policies for certain research assets in a notebook environment '
+python_name: mysampleextension
+repository: ''
+test: true
+viewer_name: ''
+

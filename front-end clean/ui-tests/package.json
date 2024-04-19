@@ -1,0 +1,21 @@
+{
+  "name": "mysampleextension-ui-tests",
+  "version": "0.2.0",
+  "description": "JupyterLab mysampleextension Integration Tests",
+  "private": true,
+  "scripts": {
+    "start": "jupyter lab --config jupyter_server_test_config.py",
+    "test": "jlpm playwright test",
+    "test:update": "jlpm playwright test --update-snapshots"
+  },
+  "devDependencies": {
+    "@jupyterlab/galata": "^5.0.5",
+    "@playwright/test": "^1.37.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.4",
+    "@mui/material": "^5.15.14",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "styled-components": "^6.1.8"
+  }
+}
