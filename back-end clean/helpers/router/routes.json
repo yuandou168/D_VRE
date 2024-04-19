@@ -1,0 +1,11 @@
+{
+  "api_v1": {
+    "policies": "../../modules/policies/policy.routes.api",
+    "users": "../../modules/users/user.routes.api",
+    "transactions": "../../modules/transactions/transactions.routes.api",
+    "auth": "../../modules/auth/auth.routes.api"
+  },
+  "ui": {
+    "policies": "../../modules/policies/policy.routes.ui"
+  }
+}
