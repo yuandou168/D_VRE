@@ -16,7 +16,7 @@ Today, scientific research is increasingly data-centric and compute-intensive, r
 Go to the `back-end clean` and/or `front-end clean` folder, respectively, and install all necessary software and dependencies with `npm` or `yarn` with the `package.json`. More details please see the `README.md` in the folders. Note that the versions may conflicts in various platforms, so make sure the versions compatible. 
 
 #### Deploy smart contracts to sepolia ETH testnet
-`truffle migrate --network sepolia`
+`$ truffle migrate --network sepolia`
 
 When the deployment has been successfully done, you can update the `.env` with the contract address of `PolicyManager` and `USER_METADATA_FACTORY`
 
@@ -50,12 +50,13 @@ PUBLIC_GATEWAY_URL=""
 
 #### start the services 
 Use the terminal for the following steps:
+
 * start the backend server
-`node server.js`
+`$ node server.js`
 
 * When the front-end extension is ready, use `jupyter lab` to start the JupyterLab environment.
-`pip install mysampleextension`
-`jupyter lab`
+`$ pip install mysampleextension`
+`$ jupyter lab`
 
 ### Cite our work
 Wang, Yuandou, Sheejan Tripathi, Siamak Farshidi, and Zhiming Zhao. "D-VRE: From a Jupyter-enabled Private Research Environment to Decentralized Cllaborative Research Ecosystem." arXiv preprint arXiv:2405.15392 (2024). 
