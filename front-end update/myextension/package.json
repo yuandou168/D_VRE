@@ -7,9 +7,9 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/yuandou168/my_D_VRE_extension",
+  "homepage": "https://github.com/yuandou168/D_VRE",
   "bugs": {
-    "url": "https://github.com/yuandou168/my_D_VRE_extension/issues"
+    "url": "https://github.com/yuandou168/D_VRE/issues"
   },
   "license": "BSD-3-Clause",
   "author": "Yuandou Wang <y.wang8@uva.nl>",
@@ -23,7 +23,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuandou168/my_D_VRE_extension.git"
+    "url": "git+https://github.com/yuandou168/D_VRE.git"
   },
   "scripts": {
     "build": "jlpm build:lib && jlpm build:labextension:dev",
