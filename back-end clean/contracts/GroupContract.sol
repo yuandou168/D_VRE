@@ -58,7 +58,7 @@ contract GroupContract {
     }
 
     modifier onlyGroupMembers() {
-        require(msg.sender == contractDetails.groupOwnerAddress, "Only group owner can call this function");
+        require(msg.sender == contractDetails.groupOwnerAddress, "Only group members can call this function");
         _;
     }
 

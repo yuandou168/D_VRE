@@ -1,0 +1,8 @@
+.scrollable-page {
+    /* width: 950px;*/
+    height: 800px;  
+    width: 80%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px;
+  }

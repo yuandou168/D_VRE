@@ -1,7 +1,8 @@
-# mysampleextension
+# myextension
 
-[![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml)
-A JupyterLab frontend extension to capture the custom sharing policies for certain research assets in a notebook environment.  
+[![Github Actions Status](https://github.com/yuandou168/my_D_VRE_extension/workflows/Build/badge.svg)](https://github.com/yuandou168/my_D_VRE_extension/actions/workflows/build.yml)
+
+A JupyterLab extension with essential D-VRE components. 
 
 ## Requirements
 
@@ -12,7 +13,7 @@ A JupyterLab frontend extension to capture the custom sharing policies for certa
 To install the extension, execute:
 
 ```bash
-pip install mysampleextension
+pip install myextension
 ```
 
 ## Uninstall
@@ -20,7 +21,7 @@ pip install mysampleextension
 To remove the extension, execute:
 
 ```bash
-pip uninstall mysampleextension
+pip uninstall myextension
 ```
 
 ## Contributing
@@ -35,7 +36,7 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Change directory to the mysampleextension directory
+# Change directory to the myextension directory
 # Install package in development mode
 pip install -e "."
 # Link your development version of the extension with JupyterLab
@@ -64,12 +65,12 @@ jupyter lab build --minimize=False
 ### Development uninstall
 
 ```bash
-pip uninstall mysampleextension
+pip uninstall myextension
 ```
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `mysampleextension` within that folder.
+folder is located. Then you can remove the symlink named `myextension` within that folder.
 
 ### Testing the extension
 

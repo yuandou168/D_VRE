@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.2
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: y.wang8@uva.nl
+author_name: Yuandou Wang
+has_binder: false
+has_settings: false
+kind: frontend
+labextension_name: myextension
+project_short_description: 'A JupyterLab extension with essential D-VRE components. '
+python_name: myextension
+repository: https://github.com/yuandou168/my_D_VRE_extension
+test: true
+

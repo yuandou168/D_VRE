@@ -1,0 +1,7 @@
+This project is the software prototype of the decentralized virtual research environment (D-VRE). 
+
+In this prototype, we organize it with two parts: back-end and front-end.
+
+The back end is on behalf of built using NodeJS and Express as a backend server, and MongoDB as a database.
+
+The front end is on behalf of built using JupyterLab and Web3 application and extensions as an interactive computing environment. 

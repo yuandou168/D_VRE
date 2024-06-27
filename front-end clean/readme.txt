@@ -1,1 +1,0 @@
-## D-VRE GUIs embedded in the JupyterLab

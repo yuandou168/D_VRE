@@ -1,0 +1,12 @@
+{
+  "name": "d_vre",
+  "version": "1.0.0",
+  "description": "This project is the software prototype of the decentralized virtual research environment (D-VRE).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sheejan Tripathi, Yuandou Wang, Zhiming Zhao [University of Amsterdam]",
+  "license": "ISC"
+}

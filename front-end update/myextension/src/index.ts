@@ -5,7 +5,8 @@ import loginExtension from './extensions/loginWidget';
 import policyExtension from './extensions/policyWidget';
 import userAssignExtension from './extensions/assignUser';
 import groupListExtension from './extensions/groupList';
-import userWorkflowExtension from './extensions/'
+import userWorkflowExtension from './extensions/workflowManager';
+import userProvenanceExtension from './extensions/provenanceManager'
 
 
 const extensions: JupyterFrontEndPlugin<any>[] = [
@@ -13,7 +14,9 @@ const extensions: JupyterFrontEndPlugin<any>[] = [
   loginExtension,
   policyExtension,
   userAssignExtension,
-  groupListExtension
+  groupListExtension,
+  userWorkflowExtension,
+  userProvenanceExtension
 ];
 
 export default extensions;

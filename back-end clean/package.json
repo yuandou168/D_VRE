@@ -1,69 +1,13 @@
 {
-  "name": "thesis",
+  "name": "back-end-clean",
   "version": "1.0.0",
-  "description": "Master's Thesis Implementation",
-  "main": "index.js",
+  "description": "This project is on behalf of built using NodeJS and Express as a backend server, and MongoDB as a database.",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon ./bin/www",
-    "production": "ENV_TYPE=production yarn build && node ./bin/www",
-    "client": "cd ./client && yarn dev",
-    "setup": "yarn install && cd ./client && yarn install",
-    "build": "ENV_TYPE=production yarn install && cd ./client && yarn install && yarn run prod"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "nodemonConfig": {
-    "ignore": [
-      "public/*",
-      "client/*",
-      "config/*"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sheejantripathi/Thesis.git"
-  },
-  "author": "Sheejan Tripathi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sheejantripathi/Thesis/issues"
-  },
-  "homepage": "https://github.com/sheejantripathi/Thesis#readme",
-  "dependencies": {
-    "@ganache/console.log": "^0.4.1",
-    "@helia/unixfs": "^1.4.2",
-    "@lit-protocol/lit-node-client": "^2.2.61",
-    "@lit-protocol/lit-node-client-nodejs": "^2.2.61",
-    "@metamask/eth-sig-util": "^7.0.0",
-    "@pinata/sdk": "^2.1.0",
-    "@truffle/hdwallet-provider": "^2.1.15",
-    "api": "^6.1.1",
-    "axios": "^1.5.1",
-    "blockstore-core": "^4.3.4",
-    "body-parser": "^1.20.2",
-    "chai": "^4.3.10",
-    "config": "^3.3.9",
-    "connect-multiparty": "^2.2.0",
-    "cors": "^2.8.5",
-    "crypto": "^1.0.1",
-    "dotenv": "^16.3.1",
-    "ejs": "^3.1.9",
-    "ethereumjs-util": "^7.1.5",
-    "ethers": "^6.8.1",
-    "express": "^4.18.2",
-    "express-fileupload": "^1.4.0",
-    "express-jwt": "^8.4.1",
-    "helia": "^2.0.3",
-    "helmet": "^7.0.0",
-    "ipfs-http-client": "^60.0.1",
-    "joi": "^17.9.2",
-    "jsonwebtoken": "^9.0.1",
-    "moment": "^2.29.4",
-    "mongoose": "^7.4.1",
-    "morgan": "^1.10.0",
-    "multer": "^1.4.5-lts.1",
-    "nodemon": "^3.0.1",
-    "web3": "^1.10.3",
-    "web3.storage": "^4.5.5",
-    "ws": "^8.13.0"
-  }
+  "keywords": [],
+  "author": "Sheejan Tripathi and Yuandou Wang",
+  "license": "ISC"
 }
-
